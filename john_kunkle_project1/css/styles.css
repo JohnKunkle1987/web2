@@ -1,21 +1,94 @@
-li.heroPics{
-    display:inline-block;
-}
-#bar {
-}
-h1{
-    text-align: center;
-}
-li.home{
-    display:inline-block;
-    margin: 0px 20px 0px 0px;
-}
+
+/********* Body ********/
 body{
     background-image: url("../images/dota-2-logo-background.jpg");
     color: white;
+    font-size: 1em;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.3em;
+    width: 95%;
+    margin: auto;
+}
+/********* Top heading image *********/
+h1{
+    margin: auto;
+    width: 30%;
+    height: 10%;
+
+ }
+/***** HOME BAR *******/
+#bar{
+    text-align: center;
+    font-size: 1.25em;
+}
+#bar a{
+    color: hsla(1,100%,100%,1);
+}
+#bar a:visited{
+    color: white;
+}#bar a:hover{
+     box-shadow: 0 14px 1px hsla(360,90%,50%,1);
+     color: hsla(360,90%,50%,1);
+ }
+#bar a:active{
+    color: grey;
+}
+li.home{
+    display:inline-block;
+    margin: 0 20px 0 0;
+
+}
+/******* Intro **********/
+#intro{
+    text-indent: 2%;
+    text-align: justify;
+    padding: 0 15px 0 10px;
+}
+/******* International *********/
+p.one{
+    text-indent: 2%;
+    text-align: justify;
+    padding : 0 15px 0 0;
 }
 #intPic{
     float:left;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 20px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    margin: 0 30px 5px 0;
+    border: solid;
+    background-color: white;
+    color: black;
+    border-radius: 10px ;
+
+
+}
+/********* Hero Title *********/
+#hero {
+    text-shadow: 0 14px 1px hsla(360,90%,50%,1);
+}
+/****** HERO PICS******/
+#pics {
+    list-style-type: none;
+}
+
+li.heroPics{
+    display:inline-block;
+}
+
+/********** Player Section ********/
+li.player{
+    color: hsla(1,100%,100%,1);
+}
+li.player a:visited{
+    color: #fff;
+}
+li.player a:hover{
+     color: hsla(360,90%,50%,1);
+ }
+li.player a:active {
+    color: #999;
+}
+/******** Links *****/
+a{
+    text-decoration: none;
 }
