@@ -23,12 +23,12 @@ h1{
     font-size: 1.25em;
 }
 #bar a{
-    color: hsla(1,100%,100%,1);
+    color: hsla(0,100%,100%,1);
 }
 #bar a:visited{
     color: white;
 }#bar a:hover{
-     box-shadow: 0 14px 1px hsla(360,90%,50%,1);
+     box-shadow: 0 5px 1px hsla(360,90%,50%,1);
      color: hsla(360,90%,50%,1);
  }
 #bar a:active{
@@ -61,6 +61,13 @@ p.one{
     border-radius: 10px ;
 
 
+}
+/********** Pro Section **********/
+#teams{
+    margin: 0 0 0 45%;
+}
+#teamLogo{
+    margin: 0 0 0 14%;
 }
 /********* Hero Title *********/
 #hero {
