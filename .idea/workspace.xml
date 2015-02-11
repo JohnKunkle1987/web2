@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9c03b925-3d41-4ea0-933d-121f96d7d7b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/john_kunkle_project/index.html" afterPath="$PROJECT_DIR$/john_kunkle_project/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/john_kunkle_project/css/styles.css" afterPath="$PROJECT_DIR$/john_kunkle_project/css/styles.css" />
     </list>
     <ignored path="web2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/john_kunkle_project/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18575852" vertical-offset="90" max-vertical-offset="1605">
-              <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.28018576" vertical-offset="929" max-vertical-offset="1605">
+              <caret line="74" column="89" selection-start-line="74" selection-start-column="89" selection-end-line="74" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -265,8 +264,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/john_kunkle_project/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18575852" vertical-offset="90" max-vertical-offset="1605">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.28018576" vertical-offset="929" max-vertical-offset="1605">
+          <caret line="74" column="89" selection-start-line="74" selection-start-column="89" selection-end-line="74" selection-end-column="89" />
           <folding />
         </state>
       </provider>
