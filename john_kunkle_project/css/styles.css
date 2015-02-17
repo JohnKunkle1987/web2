@@ -2,6 +2,10 @@
 /********* Body ********/
 body{
     background-image: url("../images/dota-2-logo-background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: auto;
     color: white;
     font-size: 1em;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -9,16 +13,23 @@ body{
     line-height: 1.3em;
     width: 95%;
     margin: auto;
+
 }
 /********* Top heading image *********/
 h1{
     margin: auto;
-    width: 30%;
+    width: 31%;
     height: 10%;
+    background: linear-gradient(hsla(200,20%,20%,.1), hsla(0,20%,20%,.6));
 
  }
 /***** HOME BAR *******/
 #bar{
+    background-image: url("../images/background_bar.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    width: 40%;
+    margin:0 auto;
     text-align: center;
     font-size: 1.25em;
 }
@@ -44,17 +55,29 @@ li.home{
     text-indent: 2%;
     text-align: justify;
     padding: 0 15px 0 10px;
+    overflow: auto;
+    border: solid;
+    padding-left: 2.5%;
+}
+p.two{
+    float:left;
+    width:31%;
+    margin: .5%;
+    padding: .5%;
+
+
 }
 /******* International *********/
 p.one{
     text-indent: 2%;
     text-align: justify;
-    padding : 0 15px 0 0;
+    padding : 0 .15% 0 0;
 }
 #intPic{
+    clear:left;
     float:left;
-    padding: 5px 5px 5px 5px;
-    margin: 0 30px 5px 0;
+    padding: .4% .4% .4% .4%;
+    margin: 0 1% .05% 0;
     border: solid;
     background-color: white;
     color: black;
@@ -67,7 +90,11 @@ p.one{
     margin: 0 0 0 45%;
 }
 #teamLogo{
+    display:inline-block;
     margin: 0 0 0 14%;
+    border-right-style: solid;
+    border-left-style: solid;
+    padding-right: 100px;
 }
 /********* Hero Title *********/
 #hero {
@@ -94,6 +121,10 @@ li.player a:hover{
  }
 li.player a:active {
     color: #999;
+}
+/********* Footer ********/
+#footer{
+    margin: 0 0 0 88%;
 }
 /******** Links *****/
 a{
