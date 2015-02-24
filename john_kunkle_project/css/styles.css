@@ -24,7 +24,7 @@ h1{
 
  }
 /***** HOME BAR *******/
-#bar{
+nav{
     background-image: url("../images/background_bar.png");
     background-repeat: repeat-x;
     background-position: center;
@@ -33,16 +33,17 @@ h1{
     text-align: center;
     font-size: 1.25em;
 }
-#bar a{
+nav a{
     color: hsla(0,100%,100%,1);
 }
-#bar a:visited{
+nav a:visited{
     color: #ffffff;
-}#bar a:hover{
+}
+nav a:hover{
      box-shadow: 0 5px 1px hsla(360,90%,50%,1);
      color: hsla(360,90%,50%,1);
  }
-#bar a:active{
+nav a:active{
     color: #999999;
 }
 li.home{
@@ -111,6 +112,36 @@ p.one{
 li.heroPics{
     display:inline-block;
 }
+/******** Hero Table********/
+table{
+    font-family: Helvetica, Arial, sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid #ffffff;
+    background-color: hsla(52,23%,25%,.5);
+}
+#ta{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+th{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+td{
+
+    padding: 0 0 0 8px;
+    letter-spacing: normal;
+}
+tr.even{
+    background-color: hsla(360,50%,40%,.5);
+
+}
+tr.odd{
+    background-color: hsla(360,50%,0%,.5);
+}
 
 /********** Player Section ********/
 li.player{
@@ -125,8 +156,16 @@ li.player a:hover{
 li.player a:active {
     color: #999;
 }
+/********** Form **********/
+form{
+
+    margin: 0 0 12% 10%;
+}
+form li{
+    list-style-type: none;
+}
 /********* Footer ********/
-#footer{
+footer{
     margin: 0 0 0 88%;
 }
 /******** Links *****/

@@ -8,16 +8,18 @@
     </head>
     <body>
 <!-- Title -->
+    <header>
         <h1 id="top"><img src="images/dota2Logo.png" alt="Dota 2 Logo"/></h1>
 <!-- Nav Bar -->
-        <div id = "bar">
+        <nav>
             <ul>
                 <li class = "home"><a href="#t">Tournaments</a></li>
                 <li class = "home"><a href="#hero">Heroes</a></li>
                 <li class = "home"><a href ="#teams">Teams</a></li>
                 <li class = "home"><a href="#players">Players</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
 <!--  Intro section  -->
         <h2>Dota 2</h2>
         <div id="intro">
@@ -42,7 +44,7 @@
 <!-- Tournament Section -->
         <h2 id="t">Tournaments</h2>
 
-        <div id = "tor">
+        <article id = "tor">
             <figure id = intPic><a id="intPica" href="images/dota2_int.jpg"><img src="images/dota2_int_Small.jpg" alt="dota 2 international"></a><figcaption>Dota 2 International, 2014</figcaption></figure>
 
             <p class = "one">To ensure that enough DotA players would take up Dota 2 and showcase the game's capabilities, Valve
@@ -77,7 +79,7 @@
             <p class = "one">As of February 1, 2015, over $25 million in prize money has been awarded through Dota 2 tournaments, with eight
                 Dota 2 players winning the most money across all competitive video games.
             </p>
-        </div>
+        </article>
 <!-- Pro Teams  -->
         <h3 id = "teams">Pro Teams</h3>
         <figure id = "teamLogo"><img src="images/dota2Logopage.png" alt="Dota 2 pro Teams"/></figure>
@@ -92,16 +94,93 @@
                 <li class = "heroPics"><figure><a href="images/slarkImage.jpg" target="_blank"><img id="slark" src="images/slarkSmall.jpg" alt="Slark"/></a><figcaption>Slark</figcaption></figure></li>
             </ol>
         </div>
+        <table>
+            <tr id="ta">
+                <td colspan="7">Dota 2 Heroes</td>
+            </tr>
+            <tr>
+                <th scope="col">Hero</th>
+                <th scope="col">Primary Attribute</th>
+                <th scope="col">Base Str</th>
+                <th scope="col">Base Agi</th>
+                <th scope="col">Base Int</th>
+                <th scope="col">Move Speed</th>
+                <th scope="col">Base Armour</th>
+            </tr>
+            <tr class="even">
+                <td>Abaddon</td>
+                <td>Str</td>
+                <td>23 (2.7)</td>
+                <td>17 (1.5)</td>
+                <td>21 (2)</td>
+                <td>310</td>
+                <td>1.38</td>
+            </tr>
+            <tr class="odd">
+                <td>Life Stealer</td>
+                <td>Str</td>
+                <td>25 (2.4)</td>
+                <td>18 (1.9)</td>
+                <td>15 (1.75)</td>
+                <td>315</td>
+                <td>1.52</td>
+            </tr>
+            <tr class="even">
+                <td>Pudge</td>
+                <td>Str</td>
+                <td>25 (3.2)</td>
+                <td>14 (1.5)</td>
+                <td>14 (1.5)</td>
+                <td>285</td>
+                <td>.96</td>
+            </tr>
+            <tr class="odd">
+                <td>Queen Of Pain</td>
+                <td>Int</td>
+                <td>16 (1.7)</td>
+                <td>18 (2)</td>
+                <td>24 (2.5)</td>
+                <td>300</td>
+                <td>1.52</td>
+            </tr>
+            <tr class="even">
+                <td>Slark</td>
+                <td>Agi</td>
+                <td>21 (1.8)</td>
+                <td>21 (1.5)</td>
+                <td>16 (1.9)</td>
+                <td>305</td>
+                <td>1.94</td>
+            </tr>
+        </table>
 <!-- Players -->
-        <h3 id="players">Players</h3>
-        <ul>
-            <li class = "player"><a href="http://www.dotabuff.com/players/78112719" target="_blank">Vyrus</a></li>
-            <li class = "player"><a href="http://www.dotabuff.com/players/13685822" target="_blank">KoKo</a></li>
-            <li class = "player"><a href="http://www.dotabuff.com/players/72283777" target="_blank">Lucid</a></li>
-            <li class = "player"><a href="http://www.dotabuff.com/players/72235651" target="_blank">Starscream</a></li>
-        </ul>
-<!-- Footer-->
-        <a id="footer" href="#top">Home</a>
+        <aside>
+            <h3 id="players">Players</h3>
+            <ul>
+                <li class = "player"><a href="http://www.dotabuff.com/players/78112719" target="_blank">Vyrus</a></li>
+                <li class = "player"><a href="http://www.dotabuff.com/players/13685822" target="_blank">KoKo</a></li>
+                <li class = "player"><a href="http://www.dotabuff.com/players/72283777" target="_blank">Lucid</a></li>
+                <li class = "player"><a href="http://www.dotabuff.com/players/72235651" target="_blank">Starscream</a></li>
+                <li class = "player"><a href="http://www.dotabuff.com/players/128294261" target="_blank">Paul</a></li>
+            </ul>
+        </aside>
+<!-- Form -->
+        <form action="http://www.dotabuff.com/search?q=" method="get" target="_blank">
+            <p>Search for your name</p>
+            <p id="uName">Steam name <input type="text" name="q" placeholder="Steam username" required="required"/></p>
+            <p>What is your perfered role?</p>
+            <ul id="pickRole">
+                <li><input id="carry" type="radio" name="role" value="Carry"><label for="carry"> Carry</label></li>
+                <li><input id="support" type="radio" name="role" value="support"><label for="support"> Support</label></li>
+                <li><input id="offlane" type="radio" name="role" value="offlane"><label for="offlane"> Offlane</label></li>
+                <li><input id="mid" type="radio" name="role" value="mid"><label for="mid"> Mid</label></li>
+            </ul>
+            <input type="submit" value="search"/>
+        </form>
 
+<!-- Footer-->
+        <footer>
+            <a href="#top">Home</a>
+        </footer>
     </body>
 </html>
