@@ -114,7 +114,7 @@ li.heroPics{
 }
 /******** Hero Table********/
 table{
-    font-family: Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
     width: 70%;
     margin: 0 auto;
     text-align: left;
@@ -131,9 +131,12 @@ th{
     font-weight: normal;
 }
 td{
-
     padding: 0 0 0 8px;
     letter-spacing: normal;
+}
+tr.even:hover, tr.odd:hover{
+    background-color: #ffffff;
+    color: #000000;
 }
 tr.even{
     background-color: hsla(360,50%,40%,.5);
@@ -158,15 +161,45 @@ li.player a:active {
 }
 /********** Form **********/
 form{
-
-    margin: 0 0 12% 10%;
+    width: 30%;
+    margin: 5% 30px 5% 5%;
+    float: left;
+    border: 2px solid hsla(360,90%,50%,.7);
+    color: #f0fff0;
+    padding-left: 100px;
+    background-color: hsla(360,50%,0%,.5);
+}
+form p{
+    font-size: 1.1em;
+}
+form p:hover{
+    text-shadow: 3px 3px hsla(200,40%,40%,.8);
+}
+form ul{
 }
 form li{
     list-style-type: none;
+    padding: 2px 0 0 0;
+}
+#sName{
+    margin: 0 0 0 10px;
+    width: 120px;
+}
+#fTwo{
+
+}
+textarea{
+    width: 250px;
+    text-align: center;
+}
+textarea:focus{
+    width: 300px;
 }
 /********* Footer ********/
 footer{
-    margin: 0 0 0 88%;
+    text-align: right;
+    margin: 0 10% 0 0;
+    clear: both;
 }
 /******** Links *****/
 a{

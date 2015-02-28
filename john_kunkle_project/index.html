@@ -165,9 +165,13 @@
             </ul>
         </aside>
 <!-- Form -->
-        <form action="http://www.dotabuff.com/search?q=" method="get" target="_blank">
+        <form id="fOne" action="http://www.dotabuff.com/search?q=" method="get" target="_blank">
             <p>Search for your name</p>
-            <p id="uName">Steam name <input type="text" name="q" placeholder="Steam username" required="required"/></p>
+            <p id="uName">Steam name<input id="sName" type="text" name="q" placeholder="Steam username" required="required"/></p>
+            <input type="submit" value="search"/>
+        </form>
+        <form id="fTwo" action="http://example.com.php" method="post">
+            <p>Tell us about you.</p>
             <p>What is your perfered role?</p>
             <ul id="pickRole">
                 <li><input id="carry" type="radio" name="role" value="Carry"><label for="carry"> Carry</label></li>
@@ -175,7 +179,21 @@
                 <li><input id="offlane" type="radio" name="role" value="offlane"><label for="offlane"> Offlane</label></li>
                 <li><input id="mid" type="radio" name="role" value="mid"><label for="mid"> Mid</label></li>
             </ul>
-            <input type="submit" value="search"/>
+
+
+            <label for="heroPick">Who is your Favorite Hero?</label><br>
+            <select id="heroPick">
+                <option value="Abbadon">Abbadon</option>
+                <option value="Life Stealer">Life Stealer</option>
+                <option value="Pudge">Pudge</option>
+                <option value="Queen of Pain">Queen of Pain</option>
+                <option value="Slark">Slark</option>
+            </select>
+
+            <p>Leave us a comment</p>
+            <textarea name="comments" rows="4" placeholder="Enter a quick note"></textarea>
+            <input type="submit" value="Submit">
+
         </form>
 
 <!-- Footer-->
